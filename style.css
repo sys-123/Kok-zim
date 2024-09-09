@@ -1,0 +1,828 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+	font-family: Montserrat;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*Login Page Header*/
+
+nav{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-header{
+    color: #fff;
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+
+.nav-container{
+    text-align: center;
+}
+
+/*Form*/
+
+@media only screen and (min-width: 320px) {
+    html{
+        font-size: 5px;
+    }
+
+    form{
+        max-width: 200px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: -30%;
+        top: 80%;
+        width: 80%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 9px;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 50%;
+        font-size: 10px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form #birth-year{
+        font-size: 9px;
+    }
+
+    form .form-btn{
+        font-size: 9px;
+        padding: 9px px;
+    }
+
+    form .hr-selector::after{
+        top: 84%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 10px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 14px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 480px){
+    html{
+        font-size: 7px;
+    }
+
+    form{
+        max-width: 230px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 60%;
+        top: 16%;
+        width: 10%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 50%;
+        font-size: 10px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form #birth-year{
+        font-size: 9px;
+    }
+
+    form .form-btn{
+        font-size: 9px;
+        padding: 9px px;
+    }
+
+    form .hr-selector::after{
+        top: 84%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 9px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 14px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 575px){
+    html{
+        font-size: 8px;
+    }
+
+    form{
+        max-width: 270px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 65%;
+        top: 16%;
+        width: 10%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 50%;
+        font-size: 10px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form #birth-year{
+        font-size: 9px;
+    }
+
+    form .form-btn{
+        font-size: 9px;
+        padding: 9px px;
+    }
+
+    form .hr-selector::after{
+        top: 84%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 9px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 14px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    html{
+        font-size: 8px;
+    }
+
+    form{
+        max-width: 300px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 64%;
+        top: 17.5%;
+        width: 10%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form #birth-year{
+        font-size: 12px;
+    }
+
+    form .form-btn{
+        font-size: 12px;
+        padding: 12px 28px;
+    }
+
+    form .hr-selector::after{
+        top: 84%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 12px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 14px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    html{
+        font-size: 9px;
+    }
+
+    form{
+        max-width: 320px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 55%;
+        top: 20%;
+        width: 15%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 19px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 50%;
+        font-size: 10px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form #birth-year{
+        font-size: 9px;
+    }
+
+    form .form-btn{
+        font-size: 9px;
+        padding: 9px px;
+    }
+
+    form .hr-selector::after{
+        top: 84%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 9px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 14px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 1451px){
+    html{
+        font-size: 9px;
+    }
+
+    form{
+        max-width: 360px;
+    }
+
+    #container .form-container{
+        left: 25%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 50%;
+        top: 18.5%;
+        width: 15%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 50%;
+        font-size: 13px;
+    }
+
+    form .gender .gender-label{
+        font-size: 13px;
+    }
+
+    form #birth-year{
+        font-size: 12px;
+    }
+
+    form .form-btn{
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+
+    form .hr-selector::after{
+        top: 83.5%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 12px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 18px;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    html{
+        font-size: 10px;
+    }
+
+    form{
+        max-width: 450px;
+    }
+
+    #container .form-container{
+        left: 20%;
+        float: right;
+    }
+
+    #container .block-subheading{
+        left: 50%;
+        top: 15.8%;
+        width: 10%;
+    }
+    
+    #container  .subheading-form{
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .form-group input{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    form .gender .gender-label{
+        font-size: 10px;
+    }
+
+    form form-group label{
+        font-size: px;
+    }
+
+    form #birth-year{
+        font-size: 14px;
+    }
+
+    form .form-btn{
+        font-size: 12px;
+        padding: 15px 50px;
+        margin-bottom: 30px;
+    }
+
+    form .hr-selector::after{
+        top: 83.5%;
+        left: 40%;
+    }
+
+    form .google-icon-text{
+        font-size: 14px;
+    }
+
+    form .google-icon-form i.fab.fa-google{
+        font-size: 18px;
+        border: none;
+    }
+}
+
+
+#container{
+    height: 100vh; 
+    display: grid;
+    place-items: center;
+    background-image: url('/img/family-image-bg-c1.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.form-container {
+
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+form{
+    padding: 2rem;
+    text-align: center;
+}
+
+.form-group{
+    width: 49%;
+}
+
+.form-group input{
+    width: 100%;
+    outline: 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.form-group{
+    padding-bottom: 3rem;
+}
+
+form .sname{
+    display: inline-block;
+}
+
+form .fname{
+    display: inline-block;
+}
+
+.form-group.name-father label{
+    float: left;
+}
+
+.form-group.surname-father label{
+    float: left;
+}
+
+.form-group.name-mother label{
+    float: left;
+}
+
+.form-group.surname-mother label{
+    float: left;
+}
+
+form .email{
+    width: 100%;
+}
+
+form .form-group #radio-male, #radio-female{
+    width: auto;
+}
+
+#birth-year{
+    border-radius: .5rem;
+    padding: .8rem;
+    background-color: transparent;
+}
+
+form .gender-label{
+    font-size: 14px;
+}
+
+form .gender, .date-block{
+    display: inline-block;
+}
+
+form .name-father, .surname-father, .name-mother, .surname-mother{ 
+    display: inline-block;
+}
+  
+.form-btn{
+    margin: 10px;
+    font-size: 1.7rem;
+    padding: 2rem;
+    background-color: transparent;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 4rem;
+    transition: .1s all ease-in-out;
+}
+
+.form-container .form-btn:hover{
+    background-color: #3aa0ff;
+    transform: scale(1.02);
+}
+
+.hr-selector {
+	border: none;
+	border-top: .1px solid #969696e6;
+	padding: 2rem;
+    margin-top: 11px;
+	overflow: visible;
+}
+
+.hr-selector::after {
+	background-color: transparent;
+    content: "Veya";
+    display: inline-block;
+    position: absolute;
+    color: rgba(150, 150, 150, 0.9);
+    background-color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    top: 550px;
+    left: 43%;
+}
+
+.google-icon-text{
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.google-icon-form .fa-google{
+    font-size: 22px;
+    display: inline-block;
+    border: 1.5px solid rgba(150, 150, 150, 0.9);
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.block-subheading {
+    position: absolute;
+    top: 20%;
+    left: 50;
+    transform: translateX(50%);
+    width: 25%;
+    text-align: right;
+    color: #fff;
+    font-size: 22px;
+}
+
+.google-continue-btn {
+    display: flex;
+    align-items: center;
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*Login Page Header*/
+
+/*seciton join us*/
+
+@media only screen and (min-width: 320px) {
+    
+
+    #section-join-us {
+        background-image: url(/images/family-group.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sju-heading {
+        font-size: 24px; /* Küçük ekranlarda başlık boyutunu küçült */
+    }
+
+    .sju-subtitle span {
+        font-size: 14px; /* Küçük ekranlarda alt başlık yazı boyutunu küçült */
+    }
+}
+
+#section-join-us{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(/img/family-group.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: inset(100px 0px 100px 0px);
+}
+
+#section-join-us .container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#section-join-us .sju-heading{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+#section-join-us .sju-subtitle{
+    width: 90%;
+    font-size: 3rem;
+    color: #fff;
+    display: inline-block;
+    font-weight: 200;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes grow{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.001);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+/*seciton join us*/
+
+/*Journey discovery*/
+
+#journey-discovery{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#journey-discovery .jd-content-block{
+    color: #fff;
+    font-size: 22px;
+    background-color: #007fff;
+    padding: 8rem;
+}
+
+#journey-discovery .jd-heading{
+    width: 75%;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    display: inline-block;
+}
+
+#journey-discovery .jd-subtitle-inline{
+    width: 50%;
+    display: inline-block;
+}
+
+#journey-discovery #jd-globe-icon{
+    font-size: 50px;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#journey-discovery .icon-container .icon-item{
+    font-size: 10rem;
+    display: inline-block;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 3rem;
+}
+
+#journey-discovery .icon-label{
+    font-size: 20px;
+}
+
+/*Journey discovery*/
+
+/*Family-history*/
+
+#family-history{
+    width: 100%;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+#family-history .fh-content-container{
+    place-items: center;
+}
+
+#family-history .fh-heading{
+    width: 50%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-top: 7rem;
+    font-family: 'Raleway';
+    display: inline-block;
+}
+
+#family-history .btn-block{
+    padding: 8rem;
+}
+
+#family-history .fh-btn{
+    border: none;
+    background-color: rgb(0, 106, 255);
+    cursor: pointer;
+    font-size: 22px;
+    color: #d3d3d3;
+    border-radius: .5rem;
+    padding: 1rem 5rem;
+    text-transform: capitalize;
+    transition: all ease-in-out .2s;
+}
+
+#family-history .fh-btn:hover{
+    transform: scale(1.03);
+    transition: all ease-in-out.1s;
+}
+
+/*Family-history*/
